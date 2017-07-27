@@ -1,0 +1,77 @@
+body
+{
+    height: 100%;
+    width :100%;
+    background-color:#ffffff;
+}
+.container{
+    max-width :58.625em;
+    height:auto;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header{
+    height:125px;
+    width : 100%;
+      background-color:black;
+}
+.header-top-container{
+    height:85px;
+    width : 100%;
+    background-color:#7dd9e8;
+}
+.header-bottom-container{
+    height:40px;
+    max-width : 100%;
+    background-color:#f5f5f5;
+}
+.content-wrapper{
+    height:605px;
+    width :100%;
+  	background-image: url("../images/body-back-flow.png");
+	 background-repeat: repeat-y;
+  
+}
+.col-left {
+/*    height:605px;*/
+    width : 20.78891257995736%;
+    background-color:#f5f5f5;/*change here*/
+    float: left;
+}
+
+.col-right-container {
+/*    height:605px;*/
+      width :79.21108742004264%;
+    float: right;
+}
+.col-right-main {
+/*    height:605px;*/
+/*    width : 76.44683714670256%;*/
+    width :  69.85195154777927%;
+/*    width : 519px;*/
+    background-color:#ffffff;
+    float: left;
+    padding-left: 25px;
+  padding-right: 25px;
+}
+.col-right-r {
+    height:605px;
+    width :20.18842530282638%;
+/*    background-color:crimson;*/
+    float: left;
+}
+
+.footer-wrapper {
+  
+  color: #d5d5d5;
+  
+}
+.inviteInActive {
+  height: 24px;
+  width: 47.36842105263158%;
+  float: right;
+background-repeat:no-repeat;
+background-image: url('../images/inviteInactive.png');
+}
